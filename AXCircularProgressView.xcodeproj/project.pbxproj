@@ -15,6 +15,7 @@
 		01E591871CCDFB8A002180BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E591851CCDFB8A002180BF /* LaunchScreen.storyboard */; };
 		01E591921CCDFB8A002180BF /* AXCircularProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E591911CCDFB8A002180BF /* AXCircularProgressViewTests.m */; };
 		01E5919D1CCDFB8A002180BF /* AXCircularProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5919C1CCDFB8A002180BF /* AXCircularProgressViewUITests.m */; };
+		01E591AC1CCDFBAA002180BF /* AXCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E591AB1CCDFBA9002180BF /* AXCircularProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		01E591981CCDFB8A002180BF /* AXCircularProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AXCircularProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E5919C1CCDFB8A002180BF /* AXCircularProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AXCircularProgressViewUITests.m; sourceTree = "<group>"; };
 		01E5919E1CCDFB8A002180BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01E591AA1CCDFBA9002180BF /* AXCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AXCircularProgressView.h; path = AXCircularProgressView/AXCircularProgressView.h; sourceTree = "<group>"; };
+		01E591AB1CCDFBA9002180BF /* AXCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AXCircularProgressView.m; path = AXCircularProgressView/AXCircularProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				01E5917B1CCDFB8A002180BF /* AppDelegate.m */,
 				01E5917D1CCDFB8A002180BF /* ViewController.h */,
 				01E5917E1CCDFB8A002180BF /* ViewController.m */,
+				01E591AD1CCDFBAE002180BF /* AXCircularProgressView */,
 				01E591801CCDFB8A002180BF /* Main.storyboard */,
 				01E591831CCDFB8A002180BF /* Assets.xcassets */,
 				01E591851CCDFB8A002180BF /* LaunchScreen.storyboard */,
@@ -138,6 +142,15 @@
 				01E5919E1CCDFB8A002180BF /* Info.plist */,
 			);
 			path = AXCircularProgressViewUITests;
+			sourceTree = "<group>";
+		};
+		01E591AD1CCDFBAE002180BF /* AXCircularProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				01E591AA1CCDFBA9002180BF /* AXCircularProgressView.h */,
+				01E591AB1CCDFBA9002180BF /* AXCircularProgressView.m */,
+			);
+			name = AXCircularProgressView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01E5917F1CCDFB8A002180BF /* ViewController.m in Sources */,
+				01E591AC1CCDFBAA002180BF /* AXCircularProgressView.m in Sources */,
 				01E5917C1CCDFB8A002180BF /* AppDelegate.m in Sources */,
 				01E591791CCDFB8A002180BF /* main.m in Sources */,
 			);
